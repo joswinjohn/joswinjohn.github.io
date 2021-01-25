@@ -1,0 +1,127 @@
+body {
+    font-family: 'Calibri';
+    box-sizing: border-box;
+    color: black;
+    background: #212121;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: rgb(189, 247, 255);
+}
+  
+
+.outer {
+    width: 100%;
+}
+  
+.inner {
+    position: relative;
+    max-width: 640px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+#header {
+    background: #212121;
+    background: -moz-linear-gradient(top, #373737, #212121);
+    background: -webkit-linear-gradient(top, #373737, #212121);
+    background: -ms-linear-gradient(top, #373737, #212121);
+    background: -o-linear-gradient(top, #373737, #212121);
+    background: linear-gradient(top, #373737, #212121);
+}
+
+#githublink {
+    display: block;
+    position: absolute;
+    top:0;
+    right: 10px;
+    z-index: 10;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+    background: url('../img/github.png') #0090ff no-repeat 95% 50%;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#title {
+    margin: 0;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: #111 0px 0px 10px;
+    display:inline-block;
+}
+
+#home {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: #111 0px 0px 10px;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#header .inner {
+    padding: 50px 10px 30px 10px;
+}
+
+#main {
+    background: #f2f2f2;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+}
+
+#s1 {
+    max-width: 640px;
+    font-family: 'Calibri';
+    font-size: 24px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+#s2 {
+    max-width: 640px;
+    font-family: 'Calibri';
+    font-size: 24px;
+    padding: 125px 10px;
+    margin: 0 auto;
+}
+
+.games {
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    background-color: #0090ff;
+    padding: 10px 24px;
+}
+
+#paragraph {
+    font-size: 16px;
+}
+
+.coming-soon {
+    max-width: 640px;
+    font-family: 'Calibri';
+    font-size: 60px;
+    padding: 325px 10px;
+    margin: 0 auto;
+}
+
+#contactlink {
+    color: rgb(211, 159, 168);
+    text-decoration: underline;
+}
