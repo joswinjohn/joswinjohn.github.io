@@ -96,7 +96,7 @@ a:hover {
     max-width: 640px;
     font-family: 'Calibri';
     font-size: 24px;
-    padding: 125px 10px;
+    padding: 20px 10px;
     margin: 0 auto;
 }
 
@@ -124,4 +124,8 @@ a:hover {
 #contactlink {
     color: rgb(211, 159, 168);
     text-decoration: underline;
+}
+
+#pfp {
+    border-radius: 360px;
 }
