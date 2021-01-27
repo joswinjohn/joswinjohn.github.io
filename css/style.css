@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Calibri;
+    src: url("Calibri.ttf") format("truetype"), url("Calibri.otf") format("opentype"), url("Calibri.woff") format("woff"), url("Calibri.woff2") format("woff2");
+}
+
 body {
     font-family: 'Calibri';
     box-sizing: border-box;
