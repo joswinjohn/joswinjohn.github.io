@@ -114,6 +114,26 @@ a:hover {
     padding: 10px 24px;
 }
 
+#cTitle {
+    font-size: 70px;
+    text-align: center;
+    margin: 20px;
+}
+
+#cHead {
+    margin: 20px;
+}
+
+.cMathRels {
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    background-color: #0090ff;
+    padding: 10px 24px;
+    margin: 20px;
+}
+
 #paragraph {
     font-size: 16px;
 }
