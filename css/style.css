@@ -108,13 +108,13 @@ a:hover {
     margin: 20px;
 }
 
-#heading {
+.heading {
     font-weight: 700;
     font-family: Montserrat;
     font-size: 36px;
 }
 
-#paragraph {
+.paragraph {
     font-family: 'Microsoft YaHei';
     font-size: 20px;
 }
@@ -158,4 +158,16 @@ a:hover {
     padding-top: 14%;
     display: inline-block;
     font-size: 24px;
+}
+
+#st2button {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 47%;
+    padding: 10px 20px;
+    background-color: #89ccff;
+    border: none;
+    border-radius: 7px;
 }
