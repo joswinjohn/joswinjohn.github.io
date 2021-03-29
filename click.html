@@ -1,16 +1,28 @@
 <html>
 <head>
     <title>ClickTest | Joswin John</title>
-
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/click.css">
 </head>
 <body>
+    <div id="header">
+        <div class="head">
+            <a id="githublink" href="https://github.com/joswinjohn">GitHub</a>
+
+            <h1 id="title">Joswin John</h1>
+            <a class="navobj" href="index.html">Home</a>
+            <a class="navobj" href="qsee.html">Q-See</a>
+            <a class="navobj" href="click.html">CPS Test</a>
+        </div>
+    </div>
     <div>
-        <p id="clicknum">CPS</p>
+        <h2>CPS Test</h2>
+        <p id="clicknum">0</p>
+        <div id="buttondiv">
+            <button type="button" id="clickmain" onclick="mouse1down(), setTimeout(time1, 10000)">Click Here</button>
+        </div>
 
-        <button type="button" id="clickmain" onclick="mouse1down(), setTimeout(time1, 10000)">Click Here</button>
-
-        <script src="js/site.js"></script>
+        <script src="js/click.js"></script>
     </div>
 </body>
 

@@ -1,16 +1,15 @@
 @font-face {
     font-family: Calibri;
     src: url("Calibri.ttf") format("truetype"), url("Calibri.otf") format("opentype"), url("Calibri.woff") format("woff"), url("Calibri.woff2") format("woff2");
+    font-family: Montserrat;
+    src: url("Montserrat.ttf") format("truetype"), url("Montserrat.otf") format("opentype"), url("Montserrat.woff") format("woff"), url("Montserrat.woff2") format("woff2");
 }
 
 body {
     font-family: 'Calibri';
-    box-sizing: border-box;
     color: black;
-    background: #212121;
+    background: #fff;
     font-size: 16px;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
 }
 
 a:link {
@@ -24,94 +23,69 @@ a:visited {
 a:hover {
     text-decoration: rgb(189, 247, 255);
 }
-  
 
-.outer {
-    width: 100%;
-}
-  
-.inner {
+.head {
+    max-width: 100%;
     position: relative;
-    max-width: 640px;
-    padding: 20px 10px;
     margin: 0 auto;
 }
 
 #header {
-    background: #212121;
-    background: -moz-linear-gradient(top, #373737, #212121);
-    background: -webkit-linear-gradient(top, #373737, #212121);
-    background: -ms-linear-gradient(top, #373737, #212121);
-    background: -o-linear-gradient(top, #373737, #212121);
-    background: linear-gradient(top, #373737, #212121);
+    padding-bottom: 1%;
+    font-family: Montserrat;
+    margin-left: 5%;
+    background: #fff;
 }
 
 #githublink {
-    display: block;
+    display: inline-block;
     position: absolute;
-    top:0;
-    right: 10px;
-    z-index: 10;
+    top: 10px;
+    right: 0px;
     padding: 10px 50px 10px 10px;
     color: #fff;
     background: url('../img/github.png') #0090ff no-repeat 95% 50%;
     font-weight: 700;
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-radius: 10px;
 }
 
 #title {
+    font-family: monospace;
+    padding-right: 3%;
     margin: 0;
-    color: #fff;
+    color: #1a1a1a;
     font-size: 42px;
     font-weight: 700;
-    text-shadow: #111 0px 0px 10px;
-    display:inline-block;
+    display: inline-block;
 }
 
-#home {
-    color: #fff;
-    font-weight: 700;
-    text-shadow: #111 0px 0px 10px;
+.navobj {
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: 600;
     display: inline-block;
     margin-left: 30px;
-    font-size: 20px;
-}
-
-#header .inner {
-    padding: 50px 10px 30px 10px;
+    font-size: 24px;
 }
 
 #main {
     background: #f2f2f2;
-    border-top: 1px solid #111;
-    border-bottom: 1px solid #111;
+    position: relative;
 }
 
 #s1 {
-    max-width: 640px;
-    font-family: 'Calibri';
     font-size: 24px;
+    max-width: 95%;
     padding: 20px 10px;
     margin: 0 auto;
 }
 
 #s2 {
-    max-width: 640px;
-    font-family: 'Calibri';
+    text-align: center;
     font-size: 24px;
+    max-width: 95%;
     padding: 20px 10px;
     margin: 0 auto;
-}
-
-.games {
-    border: none;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    background-color: #0090ff;
-    padding: 10px 24px;
 }
 
 #cTitle {
@@ -134,8 +108,15 @@ a:hover {
     margin: 20px;
 }
 
+#heading {
+    font-weight: 700;
+    font-family: Montserrat;
+    font-size: 36px;
+}
+
 #paragraph {
-    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    font-size: 20px;
 }
 
 .coming-soon {
@@ -164,4 +145,17 @@ a:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.imgdesc {
+    position: relative;
+    margin: 0 auto;
+}
+
+#descobjs {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 14%;
+    display: inline-block;
+    font-size: 24px;
 }
